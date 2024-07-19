@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Generator</title>
+    <link rel="icon" href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxITEhUSEhIVFhIXFw8VFxUVDw8QFxUVFRUWFhUXFxUYHSggGBolHRUVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDg0OGxAQGC0dHR0tNy0tLS0rKy0tKy0tKzUrLSstLS0tLSstKy0tLS0tLS0tLS0tLS0tLS0tKy0tLSstK//AABEIAOEA4QMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAABBwACAwYFBP/EAEsQAAECAgUGCQYKCgIDAAAAAAEAAgMRBBIhMUEFBgdRcbEXImFzgZGT0dITMlJUkqEUIzNCU3KUsrPBFjQ1RGJjgqLw8SRDFSXh/8QAGgEBAAMBAQEAAAAAAAAAAAAAAAECAwQGBf/EACwRAAIBAwEGBQUBAQAAAAAAAAABAgMREhMEITEyM1EUFVJxkQUjQWGBIkP/2gAMAwEAAhEDEQA/AHiooqPMrkBYlRCGrIAAqErOIZXX6taMK23FAXUBRWcWy3HegLkqKkIztx3LRAAFQlUi68UIZmbb9SA0CgKKpElKaAsSoFkx0zb1LZACaKq8WWrNjpm3o5UBqCpNFBwQBQBWIfOwmzXrW6AE0UCFjXwnZrQG01CVAEUBFFlWww3LUICKKKIAEqNaoUQgMntItHSEXRRKy0m4IxHy24BZCGW8a84juQGsNkrTeg9hvF+I1oRI7WtL3OAaBMkkAAcpK4/KukuiQyWww+MRi0BrPadaegFSk3wIbSOx8sJT92M1IbMTfuS14Umzn8FM+fHgWvCu31Q/aB4FbTl2IyQxYjMRfvQEYSn7uVLvhXb6oftA8CxOlITn8FM+fHgTTl2GSGUxhNrugakYjJ2i9LrhXb6oftA8CnCu31Q/aB4E05dhkhiNiiVthF6DWl1puwCW8TSkCZ/BDyfHjwLQaVx6oftA8CacuwyQx4jJ7cCgyJgbCEuuFdvqh+0DwLKJpSaf3Q9uPAmnLsMkMgCtafNwGtaPZMJbjSuPVD9oHgU4WG+qH7QPAmnLsMkMVj5WOv160PO+rvS4iaU2u/dDLnx4FZmlYAS+CHtx4E05dhkhkuYCJKjXSMj0FLvhXb6oftA8CpE0qNNnwQy58eBNOXYZIYxNawXYn8gtKglLBcJkvSbRXENiw4kL+LixGjbVt9y7ah0uHFYHwntew3OaQQquLXElNMINWw3YHUi50zIdJ1KRDPijpKDeLYbtfeoJNWtkJIASVkJoAqIIoCLJ7qt3UtCUGt60BWE3G8lGNFaxpc4gNaCSTcALSVQiraPNxGpcfpWymYdDENptjPDT9RoLne8NHSVMVd2Ibsjgc8c6n0uIQ0ltHBNVk5Vv4nayfcvMyTkSkUkkQITnyvNzRtcbFM38lmk0iHAFld1p1NFrjtkn1QaAyAxsOE0NhtAFUb9q3lLDcjNLLeKLg5yh6ELth3IHR1Txe2F247k5nRmjEbJ2qMZMzPQFTVkX0xMt0dU8/NhduO5Hg4yh6MLth3JyxBIzFn5qwiCU1GsyMEJg6Oafi2F2w7kG6O6ebmwu2HcnILbTdgrEA2g28inVkMUJrg4yh6MLth3KHRzTxe2F2w7k52vmqecf4d6jVkMEJoaO6cfmw+2b3I8HGUPRhdsO5OZ7J2i9GG/XYVOrIYITHBxT/RhdsO5AaO6ebKsLth3Jyk1rrt6s+GNkrlGrIYITPBxlD0IXbDuU4OMoehC7YdyczHYG9VLpmQuxKashghMjR5T/AEYXbjuVuDnKHoQu2HcnMYYlJBjjOR6OVTqyGCEFljNulUYTjQiG+kCHt9oXdKtm1nDGocSswksPnw52OH5O5U96TDbEBhkBzSJOBExLESSOz1yGKJSnQ2/JuAeyeDTOzlkQQrxnluZWStvQ78lUyHGhMiwjNjwCPzB5V9RE0t9D+UyWxqO42NLYjOStNrx1hp6SmI9+Av3LGSs7GkXdArEWT6dS1aEGsAElBYqkllFFEACiosnOq7EBaI+XclppgYQ2jcppFmqxiZUNmJv3JdaZvNou2kboavT5kVlwOe0W/tBvNxtwTjpkaoxzsQHEdASb0XulT2n+XG3BOVjZ2nG4K1XmFMWUWO57q7iaxM7yu6zXpbokAFxmQXNmbyBr3dCwj5rQnOrBzmgmZaJS5ZHBepAorYTQ1gkwWS/PauWEHF7z6m17TSq01GC3+3A8TKscmI4E2NMgNS3yJEc4kG0CRAX20nJrYprmzZbPaF9VDojYYk3pOJXFT2arGvm3uOeVaDp423nh5y0t02sBIaQSZY23L4ci0pzIrQDxXGRGFuO1dHlPJzIgtsIuIsIWGTskMY6vMuIunKzoC+mfCq7LWltGae4+8snb/hXD5SyvGdEfx3NDXEBoJaAAZYXrvwvLyjkKBEd5RzONiQ4tntljyqU0j6TOK+HxvpX+25ZmnRj/ANj/AG3Lr2ZuUZ3zHAc68/mtRmxRvRd2kTvVskDjW5Qi/Sv9tysafG+lf7bl1z816NeGunzj+9Ztzco7rKrhr+Mf3pkgciadGP8A2P8AbcrMyhFu8o/23LshmxRvRd2j+9B2a1G9F3aP70zQscgKfG+lf7blG5UjAgiK+w4uJHUV1Yzdo5Mqjp4/Gv719EDNujNIIYSR6T3uHSCbUyQPuoUSbWzEiQD1iaWGmL5eBzb/AL6ar2AhKnS+T5eBP6OJ99KfMRLgY6JATSooGME/iMTZh8Ww9etKjQ/+txeZd+IxNxzZ2FKvMIcAoErIOIs6lq0LMsRRFRAAlVDcSrFFAY+b9Xcl3pl82i7aRuhpkRHAC1LLS+0htGnrpEhq+TV6fMisuB4mi0f+wbzcbcE5TxbrtWpJvRZ+0G83G3BOSlRQxpcbgCSrVeYrF2jcvWsngs2itabsFycTOKJOYY0N1GZV/wBJI2pvUVfw1Q5H9SoL8s6pzZWjpCuHiU8FyX6RxtTOorE5wxr6rJbHW+9PC1CPMqH7Ov8AO2b0XttmP9rlW5yRdTeoonOONqZ1FPC1B5nQ/fwdY14KzJrHk3rkjnFGt4rOp1vvXQZDyn5ZhMpFpkQqTozgrs1pbZSqyxi959zmYi/erMfNfLlaneRhl8pmwAcpuXMvzjim0Nby3pCjKauia2106TxlxOtc6tYLsSi6HqvC5SHnJFlYG9R71b9I42pvUVfwtQy8yofv4OrhxJ7VV752DpOpcjEzjik2Bm2R71aHnHF9FnUU8LUHmVD9nW+SErOtFjsDeuU/SSNqZ1FZvzjikjitPtBPDVB5lQ/Z1z34C/clVpgbKPR+biffCZeS6UIjA4CU9evFLbTF8vA5uJ98LOCtKx15KUbr8mOh8/8ALi8y78RibMSJgL0otEo/5UUSt8i7o+MYm1BsMjfr1pV5i0OBo2HZbfrRarIErMsFRBRAErMuq33K5KpUnaUAGMmax6BqS70zebRdtI3Q0wwathuwOpebnNkGDTIXk4sxI1mvbKs0ylZr2K0HZ3IauhWaLnSp7T/Ljbgm1lSZgvOFUyC8fNTM2DQ3OiBznvcJVnyEm3kAC7DqXt5QbKG8fNIPQryac00ZyVqcvY4cKhs2L02sAGElWpPCzZevp5nlMTzb9iuvvqyws2K4A1e4JmMTyjZaoTPYvSlPZsUcyVw6JKMxifAF0OabZCIRrZuK+AS/wL1c3Wz8pK4ls+orHaJXps7Pp6++iZ1PrQRK6s2fvXMNC67OKF8WJek2zXevBbb/AKUbNK0C/wBS638PNc3EIV53L0jbYOuxTyIF166Mzgsee1qDmr0mEH/QQdqF+wWJmRZnmVsBersC9DyIwvUZI4CewJkS0dDm8ycBu129L3TAT5eBO/ycT76YmRrIIDb+NvS70vtlGo/NxJ+2F83/AKM9PR6MfYz0P/rcXmXfiMTbeyaUmh/9bi8y78RibUR8tupVq8xvDgVDyLDfvWjQqNh671Zp1rMsWUUUQAKKBCpXlf1oC0SUrbl4+WMsQqLDEWOSGTk0AVnOdeABsBXqNbWMzdgFy2kfN2LS4UMwZF8JzjUJq1muABkTZMSHvVopN7yGejm3nXRqaXNhFwe0Alj2hrqpsrCRIInqNlmteplH5N/1Sl9o7zVpFHjmkUhvk2hjmNbMEuLiJkgXCQXfU62G7VI9KmyUtxSb/wAP2ORb7lugFSctm5fRPKs0KxI6le/ZvV5ILkbLBQql2xQmdguxQWKO5F7+bUpP/pXigL183xKuR/DZ0FZVuRnZsD++j68v/Jj6w/Ncy++xdDnA+cMS9IW6r14TRJRs/IX+o9b+AhylYrKjm4hCvO6/ctjgA++y9WhKzWyVXt1XoLl1nE5L1K+q9XYyW1AdFkD5Ia7d6XemP5ej83E++ExMkMnCaReJ70vdL8JxfAiS4tWIwnAOrAy6rehcK6h6aj0Y+x8eiX9ai6/ImW3yjE24N5n53+XJW6HaO40iNEkaghVK2FZz2kDbJpTViMntwKrU5jaHAugVQRMDfvVmjWsywUVFEACVQsnfcrlFAZNdIyPQVo5wAmbkIgErbku9K9PishQYbXEMe6IXSmC4MDZA8nG3KYq7sQ3Y75hD7QQW8hBmehY041WOndIy5ORK7RTT4gpZhVj5N7HktJJFZkiCNRtITVykPin7CrOOMrGc3eDOVVL9m9UacMFuF9E8sZXbNy0UIWJOGCAs4zsF2tSUti0aBgpJCLkBXrZAM64Gts+orwzYbF7+bQEnS5FlX5GduwddF8vw5Q5t1tn714YK7F7ARI2hedEybCBsYOW+xYUqygrM+htexTrTyiznHOwF6AZJdRCyVBlYwe9WOS4XoD3rTxETl8sqd0cw100IjsBeujiZMhA8Vgn0owslQb6u20p4iJHllTujmBDxxV2uXUf+Jg+h7ysomTIQIkzjarT1p4mJPllTug5JMoTRK0zkOlfRHobXtlEaHA3hzQR1FWo4EuXcuV0g52RKGIcOC1pixKzqzhMNa2QsGLiT7iuXfKW4+xCOEFHsdTQYLGNqMY1gHzWtDR7lvEfJcNmJndEphfDjBvlWAPa5glWbORBGuZF2vkt7SDaST527Yoaae8uncsIeJv3K7SrIFQSFRBRAQhVD5WFXWZbW2ICoFa0+bq1pd6ZvNou2kboaYrHysN+HKl3pm82i7aRuhq9PmRWXA57Raf8Ant5uPuCbtPNZj5XSPSlDovbOntH8uNuCbtMdKG4HUZFXnzozfTZzErFQGV9y0CzdbsXceXCTO7rVqqoLLMFohBS7Yo507B1qPM7B0lDzdiElw2S9fN2yucJt6F5IXrZBd54F8x0WLKtyM7Ng66PvyrlAQmF0pmwDabl4LM44guYzrcvtzpZVgjEV2z965kFRs9KEoXaN/qG1VadXGLsj13ZxxQZhjP7lDnRFwaz+7vXivdgL1SrK1b6FPsca22v6j3mZxRR8xk9fGQdnHFvDGf3Lx2lB7utNCn2I8bX9R7X6UxcGM/uRh5xxAZljDrtcvBDJW4q7SmhT7E+Or+o7yiRxFYIjbJ4bwllpfdONA1+TiWf1hMLN10qO3a7el7pfHx8DlhxPvhcCVqlj0EJOVJN/lGeh/wDW4vMu/EYmzEhztF6U+h/9bi8w78RibT3SVavMaw4FWxNd+pWaqBhNpvwWjSsywVFFEACigQgHYG9ASI0EWpZ6X3kto22kW6/k0yDxvq70u9Mo4tF20jdDV6fMisuB4Gi39oN5uPuCb+UWzhP2FJ/Rb+vt5uPuCbuUHTY8C6RmVepzozfTZyVa2WC2CqWiUlUGVhXceXNCFiThOzWrl07ArVBKSAjWyRKoDLYi52A/0hBmXSuXvZtNkH/0rxgwSXr5vcWvq4vResq3Izt2Dro+nOJgMMT9Jv5rmnNAuA6l0mcL/iwBfWC59jZKNnf+C/1HrfwqyGL5DqCtVGodQVXWbES9bHzzN7QLgNkgrw2C+Q6grNb1oEStHUpJLVBqHUsojAMB1K5eixuJvS4sdDm8weRaeV3Ral9pj+Xo/NxPvhMPI7T5JpHLZ0pdaYHTjUfm4n3wuBdQ9NR6MfY+fRKZUqKZ/wDS7p+MYm1C4xmbxhqSo0QD/lxeZd+IxNmIzEX71WrzG0OBogQqtiAhFutZlgqIqICLJ7a2xaFFAZw34G/el1pm82i7aRuhpjRGT24FLTTBEm2jchpG6Gr0+ZFZcDwtGDZ09o/lx9wTephlDc06jLlSi0W/tBvNx9wThyi2cN2wq9TnRm+mzlFm8zsQrm5aNEl3Hl+BVlli0VXNms65FmKAs8zsH+kG2bNau1skSEFwr1shHzwL+L+a8MuIsXu5tskHnXVtWVfkOzYOui+XG1YY1Fzei9eIugy+Pix9YLmpy2Kuz8pf6kvvfwu89aoGyt61doxRW5wBCq90lUmSjW4n/SAqGkW+5bNdNBUdZaEHE6fI7gIIny70ttL4+PgH+XE++Ex8htnCaTy70u9MXy8Dm4n3wuFdQ9NS6MfYy0P/AK3F5l34jE23OlaUodEhIpUU6oLvxGJsw+NabsB3qtXmNocCBpPG9y1aUUJLMsFRBRAQhBrutWWTxO7rQAca1guxPcuK0t5PLqLDiNHyUS3ka8VSfaqda7eE7C4jBUptFZFhuhPE2PaWkchUxdnchq6EJmvlUUalQox81pId9Rwk7v6E9IdJDwCwhzSAQ4WiRSNznzfiUOMWOtYSaj8HDxDELXIGdlJogqw3Aw7/ACbxWb0YtW84570Zp23Mc78mQT83qJCzZk+FcW266xtS+GlGN6tC7SIqP0nRj+7Qu0iKLVDPSo/mK+BiuoEKcg23abERkmDLzT1lLpmk6MP3aF2kRW4UY3q0LtIiWqDSo+lfAwW5PhCwt2GsUYlAhXBtu02Jdv0nxiJfBoXaREIek2MP3aF2kRLVO40qPpXwMZuSoPok9JX0wS2GKobJuEvzSz4UY3q0LtIiq7ShGP7tC7SIocZviXjGnHelYaUeI0iqROeC+NmS4WLbT/EUuIek2MP3aF2kRX4UY3q0LtIiKE1wEowlzK/8GCcnQm/NJH1jYrPoEEfNt2lLs6UI3q0LtIipD0lxhb8HhdpEsU2qFNKj6V8DGbkuFeW2/WKDsnQm21DLabEvuFCN6tC7SIodKEb1aF2kRLVBpUfSvgYZoMGU6p9pRmTIc6xb0TPvS4bpMjAz+DwtleItOFGN6tC7SIlqg0qPpXwM1xqibZAauRJjSBlltJpRLDOHDAhtOuRm49Z9ymXc9qVSWlhIhsN7YYImNRcbSF5GRskxaTEEKE2bjecGtxc44BTCGO9mjd1ZHd6HsnkmPHI4vEht5TOs/q4nWmW9kjMX4jWviyBkyHRoDIMO5otOLnG1zjykr0CVjN3dzSKsgNeCJqAzWcp2gWb1q0qpIVFFEACoAoQo100BWIydosKz8oXcUWHH/wCKz3E2DpOpR0GyywjHvQGNOybCjQzCisD2HAjHWDgeVcFlTRY0kmjxy0ehEbXlseDOW0FMWG+dhv1KsR5uF+5WUmuBDSYpODKlTl5WB7UXwrTgtpf00D2ovgTX8iJcuvlRhvwN+9W1ZFcEKfgtpf00D2ovgWZ0ZUqcvKwJ/Wi+FNyJEwF6AgiVt+tNWQwQqOC2l/TQPai+BTgtpf00D2ovgTXY8+ab8DrVoj5bcAmrIYIUT9GVKBl5WB7UXwrTgtpf00D2ovgTXEGy20n/ACxBjiDI9BTVkTghU8FtL+mge1F8CziaMaUL4sD2ovhTdiPl3KrYeLrz7k1ZDBCnGi2l/TQPai+BHgtpf00D2ovgTWBq2G7A/kVo94AmmrIjBCiiaMKUL4sD2ovhVm6LqWR8tA9qL4E2Gsna7oGpDzfq7k1ZDBCo4LKX9NA9qL4EH6L6ULfKwPai+FN1zgBPBZNbWtN2A701ZDBC2yZosJIMekCr6MJhmf63XdS7/I+RoFFZUgQw0Ym9zjrc42lfURVtHm4jUtawlPBVc2+JZRSMntq2i7EKN41vzdWtQCtafN3oubK0XYhVJNUJKNdMTQBnsQBRUUQEWbxqvWiiApDlJXVS3FEoDOKJmy/WjBErMcVdokoW9aAKyi22Y7lpNRrUBnCEr7961Qc1SaApGAlLHBVhCRtv1rUNUcJoAqkWUrVYIBuKAyhiRtvwK3QIQCAj5StWTGyIn0ci1AxRIQBQdyoCxSSAxa3X5uA1L6FFUCWxAErCrj82dy2ImrIABFVAkoRNAUq6rloEUEAVFFEBFFFEBEEVEBFFFEAEVFEBEFFEAVFFEACioogIgUVEBFFFEBCooogIooogIooogIooogIooogIooogP//Z">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h2>Interactive CSS Flexbox Generator</h2>
+    </header>
+    <main>
+        <div class="controls">
+            <label>
+                Main Direction:
+                <select id="flex-direction">
+                    <option value="row">Row</option>
+                    <option value="column">Column</option>
+                    <option value="row-reverse">Row Reverse</option>
+                    <option value="column-reverse">Column Reverse</option>
+                </select>
+            </label>
+            <label>
+                Wrapping:
+                <select id="flex-wrap">
+                    <option value="nowrap">No Wrap</option>
+                    <option value="wrap">Wrap</option>
+                    <option value="wrap-reverse">Wrap Reverse</option>
+                </select>
+            </label>
+            <label>
+                Justify Content:
+                <select id="justify-content">
+                    <option value="flex-start">Flex Start</option>
+                    <option value="flex-end">Flex End</option>
+                    <option value="center">Center</option>
+                    <option value="space-between">Space Between</option>
+                    <option value="space-around">Space Around</option>
+                    <option value="space-evenly">Space Evenly</option>
+                </select>
+            </label>
+            <label>
+                Align Items:
+                <select id="align-items">
+                    <option value="stretch">Stretch</option>
+                    <option value="flex-start">Flex Start</option>
+                    <option value="flex-end">Flex End</option>
+                    <option value="center">Center</option>
+                    <option value="baseline">Baseline</option>
+                </select>
+            </label>
+            <button id="apply">Apply</button>
+        </div>
+        <div class="preview" id="flex-container">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+        </div>
+    </main>
+    <footer>
+        <p>Made with ❤️ by Jyotirmoy Kashyap</p>
+        <p>&copy;Copyright || All Rights Reserved</p>
+    </footer>
+    <script>
+        document.getElementById('apply').addEventListener('click', () => {
+            const flexDirection = document.getElementById('flex-direction').value;
+            const flexWrap = document.getElementById('flex-wrap').value;
+            const justifyContent = document.getElementById('justify-content').value;
+            const alignItems = document.getElementById('align-items').value;
+
+            const container = document.getElementById('flex-container');
+            container.style.flexDirection = flexDirection;
+            container.style.flexWrap = flexWrap;
+            container.style.justifyContent = justifyContent;
+            container.style.alignItems = alignItems;
+        });
+    </script>
+</body>
+</html>
